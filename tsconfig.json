@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/matematica/[slug]/page.tsx", "app/matematica/page.tsx"  ],
   "exclude": ["node_modules"]
 }
