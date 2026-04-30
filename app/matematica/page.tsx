@@ -19,14 +19,10 @@ export default function MatematicaPage() {
             <Link 
               key={topico.id}
               href={`/matematica/${topico.slug}`}
-              // 1. Mudamos o fundo para azul escuro (bg-blue-600) e o texto para branco (text-white)
-              // 2. Aumentamos a sombra (shadow-md)
-              // 3. No hover, deixamos o azul um pouco mais escuro (hover:bg-blue-800)
               className="group flex justify-between items-center p-5 bg-blue-600 text-white rounded-xl hover:bg-blue-800 transition-all shadow-md transform hover:-translate-y-1"
             >
               <span className="text-xl font-semibold">{topico.titulo}</span>
       
-              {/* O selo de "Ver PDF" agora fica com fundo branco e texto azul para dar destaque */}
               <span className="bg-white text-blue-700 font-bold text-sm px-4 py-2 rounded-full shadow-sm">
         Ver PDF
               </span>
