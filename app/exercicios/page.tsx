@@ -76,7 +76,7 @@ export default function ExerciciosPage() {
                                     href="/exercicios/lp"
                                     className="bg-white text-purple-600 px-4 py-2 rounded-xl text-sm font-bold border border-purple-200 shadow-sm hover:bg-purple-600 hover:text-white transition-all duration-300"
                                 >
-                                    Lingua Portuguesa
+                                    Língua Portuguesa
                                 </Link>
 
                                 <Link
@@ -97,7 +97,7 @@ export default function ExerciciosPage() {
                                     href="/exercicios/filosofia"
                                     className="bg-white text-purple-600 px-4 py-2 rounded-xl text-sm font-bold border border-purple-200 shadow-sm hover:bg-purple-600 hover:text-white transition-all duration-300"
                                 >
-                                    Filosfia
+                                    Filosofia
                                 </Link>
 
                                 <Link
@@ -111,7 +111,7 @@ export default function ExerciciosPage() {
                                     href="/exercicios/ingles"
                                     className="bg-white text-purple-600 px-4 py-2 rounded-xl text-sm font-bold border border-purple-200 shadow-sm hover:bg-purple-600 hover:text-white transition-all duration-300"
                                 >
-                                    Ingles
+                                    Inglês
                                 </Link>
                             </div>
                         </div>
