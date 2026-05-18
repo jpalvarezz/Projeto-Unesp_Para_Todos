@@ -1,17 +1,15 @@
 import Link from 'next/link';
 import dadosMatematica from '@/data/matematica.json';
 
-// 1. Criamos uma "Interface" para avisar o TypeScript qual é o formato dos params
 interface PageProps {
   readonly params: Promise<{
     readonly slug: string;
   }>;
 }
 
-// 2. Avisamos na função que ela recebe essas propriedades
 export default async function VerPdfPage({ params }: PageProps) {
 
-  const resolvedParams = await params; // Esperamos o Promise ser resolvido para obter os params
+  const resolvedParams = await params;
   const topico = dadosMatematica.find((item) => item.slug === resolvedParams.slug);
 
   if (!topico) {
@@ -25,7 +23,7 @@ export default async function VerPdfPage({ params }: PageProps) {
           ← Voltar para tópicos
         </Link>
         
-        <h1 className="text-2xl font-bold mb-4">{topico.titulo}</h1>
+        <h1 className="text-sky-600 text-2xl font-bold mb-4">{topico.titulo}</h1>
 
         <div className="flex-1 bg-white rounded-lg shadow-inner overflow-hidden border border-gray-300">
           <iframe

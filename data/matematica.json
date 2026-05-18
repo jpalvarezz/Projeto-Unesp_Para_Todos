@@ -7,14 +7,14 @@
   },
   {
     "id": 2,
-    "slug": "geometria-plana",
-    "titulo": "Geometria Plana",
-    "pdfUrl": "/pdfs/mat/geometria_plana.pdf"
+    "slug": "funcoes-primeiro-grau",
+    "titulo": "Funções do Primeiro Grau",
+    "pdfUrl": "/pdfs/mat/funcoes_primeiro_grau.pdf"
   },
   {
     "id": 3,
-    "slug": "analise-combinatoria",
-    "titulo": "Análise Combinatória",
-    "pdfUrl": "/pdfs/mat/analise_comb.pdf"
+    "slug": "plano-cartesiano",
+    "titulo": "Plano Cartesiano",
+    "pdfUrl": "/pdfs/mat/plano_cartesiano.pdf"
   }
 ]

@@ -15,7 +15,7 @@ export default function ExerciciosPage() {
 
                 {/* Grid de Opções de Exercícios */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                    {/* Card: Provas Anteriores */}
+                    {/*Provas Anteriores */}
                     <div className='md: col-span-2 bg-sky-50 border border-sky-100 p-8 rounded-2xl hover:shadow-lg transition-all transform hover:-translate-y-1 mt-2'>
                         <div>
                             <h2 className='text-2xl font-bold text-sky-700 mb-3'>Provas Anteriores</h2>
@@ -33,16 +33,16 @@ export default function ExerciciosPage() {
                         </Link>
                     </div>
 
-                    {/* Card: Questões por Matéria (Ocupa 2 colunas no PC) */}
+                    {/*Questões por Matéria*/}
                     <div className="md:col-span-2 bg-purple-50 border border-purple-100 p-8 rounded-2xl hover:shadow-lg transition-all transform hover:-translate-y-1 mt-2">
                         <h2 className="text-2xl font-bold text-purple-700 mb-3">Questões por Matéria</h2>
                         <p className="text-gray-600 mb-6">
                             Foque nos seus pontos fracos escolhendo disciplinas específicas para treinar através do nosso banco de questões.
                         </p>
 
-                        {/* "Tags" das matérias para ilustrar */}
+                        {/*Tags das matérias*/}
                         <div className="flex gap-3 flex-wrap">
-                            {/* Botões clicáveis das matérias */}
+                            {/*Botões clicáveis das matérias*/}
                             <div className="flex gap-3 flex-wrap">
                                 <Link
                                     href="/exercicios/matematica"

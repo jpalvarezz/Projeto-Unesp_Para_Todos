@@ -13,7 +13,7 @@ export default function MatematicaPage() {
           Matemática: Escolha um Tópico
         </h1>
 
-        {/* Lista de botões gerada a partir do JSON */}
+        {/* Lista de botões*/}
         <div className="grid grid-cols-1 gap-4">
           {dadosMatematica.map((topico) => (
             <Link 
@@ -24,7 +24,7 @@ export default function MatematicaPage() {
               <span className="text-xl font-semibold">{topico.titulo}</span>
       
               <span className="bg-white text-blue-700 font-bold text-sm px-4 py-2 rounded-full shadow-sm">
-        Ver PDF
+                Ver PDF
               </span>
             </Link>
           ))}

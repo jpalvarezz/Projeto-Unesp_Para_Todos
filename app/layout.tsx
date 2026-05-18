@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${inter.className} relative min-h-screen bg-gray-50 flex flex-col`}>
         
-        {/* CAMADA DE FUNDO: Logos espalhados por TUDO, sem interrupções */}
         <div 
           className="fixed inset-0 pointer-events-none z-0 opacity-[0.05]" 
           style={{ 
@@ -34,7 +33,7 @@ export default function RootLayout({
           <Navbar />
         </div>
         
-        {/* CONTEÚDO CENTRAL: Agora totalmente transparente para mostrar o fundo! */}
+        {/* CONTEÚDO CENTRAL*/}
         <main className="relative z-10 flex-grow w-full max-w-7xl mx-auto min-h-screen px-4 py-8">
           {children}
         </main>
