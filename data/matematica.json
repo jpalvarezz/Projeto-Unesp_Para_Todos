@@ -16,5 +16,12 @@
     "slug": "plano-cartesiano",
     "titulo": "Plano Cartesiano",
     "pdfUrl": "/pdfs/mat/plano_cartesiano.pdf"
+  },
+
+  {
+    "id": 4,
+    "slug": "equacao-do-segundo-grau",
+    "titulo": "Equação do Segundo Grau",
+    "pdfUrl": "/pdfs/mat/equacao_segundo_grau.pdf"
   }
 ]
