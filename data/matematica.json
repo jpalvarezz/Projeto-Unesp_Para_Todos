@@ -23,5 +23,26 @@
     "slug": "equacao-do-segundo-grau",
     "titulo": "Equação do Segundo Grau",
     "pdfUrl": "/pdfs/mat/equacao_segundo_grau.pdf"
+  },
+
+  {
+    "id": 5,
+    "slug": "progressao-aritmetica",
+    "titulo": "Progressão Aritmética",
+    "pdfUrl": "/pdfs/mat/progressao_aritmetica.pdf"
+  },
+
+  {
+    "id": 6,
+    "slug": "progressao-geometrica",
+    "titulo": "Progressão Geométrica",
+    "pdfUrl": "/pdfs/mat/progressao_geometrica.pdf"
+  },
+
+  {
+    "id": 7,
+    "slug": "geometria-plana",
+    "titulo": "Geometria Plana",
+    "pdfUrl": "/pdfs/mat/geometria_plana.pdf"
   }
 ]
