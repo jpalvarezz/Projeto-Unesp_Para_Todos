@@ -2,6 +2,11 @@ import Link from 'next/link';
 
 const temasMatematica = [
     { nome: 'Porcentagem', slug: 'porcentagem' },
+    { nome: 'Funções do Primeiro Grau', slug: 'funcoes-primeiro-grau' },
+    { nome: 'Plano Cartesiano', slug: 'plano-cartesiano' },
+    { nome: 'Equação do Segundo Grau', slug: 'equacao-segundo-grau' },
+    { nome: 'Progressão Aritmética', slug: 'progressao-aritmetica' },
+    { nome: 'Progressão Geométrica', slug: 'progressao-geometrica' },
     { nome: 'Geometria Plana', slug: 'geometria-plana' },
     { nome: 'Análise Combinatória', slug: 'analise-combinatoria' },
 ];
