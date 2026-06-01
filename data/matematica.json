@@ -58,6 +58,20 @@
     "slug": "inequacoes",
     "titulo": "Inequações",
     "pdfUrl": "/pdfs/mat/inequacoes.pdf"
+  },
+
+  {
+    "id": 10,
+    "slug": "geometria-espacial",
+    "titulo": "Geometria Espacial",
+    "pdfUrl": "/pdfs/mat/geometria_espacial.pdf"
+  },
+
+  {
+    "id": 11,
+    "slug": "trigonometria",
+    "titulo": "Trigonometria",
+    "pdfUrl": "/pdfs/mat/trigonometria.pdf"
   }
 
 ]

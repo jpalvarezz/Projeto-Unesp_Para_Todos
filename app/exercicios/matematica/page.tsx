@@ -9,8 +9,10 @@ const temasMatematica = [
     { nome: 'Progressão Geométrica', slug: 'progressao-geometrica' },
     { nome: 'Geometria Plana', slug: 'geometria-plana' },
     { nome: 'Análise Combinatória', slug: 'analise-combinatoria' },
-    { nome: 'Gráficos de Inequações', slug: 'graficos-de-inequacoes' },
-    { nome: 'Inequações', slug: 'inequacoes' }
+    { nome: 'Gráficos de Inequações', slug: 'inequacao-grafico' },
+    { nome: 'Inequações', slug: 'inequacao' },
+    { nome: 'Geometria Espacial', slug: 'geometria-espacial' },
+    { nome: 'Trigonometria', slug: 'trigonometria' }
 ];
 
 export default function MatematicaPage() {
