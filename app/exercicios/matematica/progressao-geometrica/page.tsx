@@ -3,10 +3,10 @@ import ExercisePage from '@/components/ExercisePage';
 const questoes = [
   {
     id: 1,
-    vestibular: "UNESP 2023",
-    imagemUrl: "/questoes/matematica/exs_equacao_segundo_grau/ex1_ESG.png",
+    vestibular: "UEG 2024/2 - MEDICINA",
+    imagemUrl: "/questoes/matematica/exs_progressao_geometrica/ex1_PG.png",
     alternativas: ['A', 'B', 'C', 'D', 'E'],
-    correta: 'D',
+    correta: 'A',
     explicacao:
       ""
   },
@@ -16,7 +16,7 @@ const questoes = [
 export default function Page() {
   return (
     <ExercisePage
-      titulo="Equação do Segundo Grau"
+      titulo="Progressão Geométrica"
       questoes={questoes}
     />
   );

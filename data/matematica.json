@@ -44,5 +44,20 @@
     "slug": "geometria-plana",
     "titulo": "Geometria Plana",
     "pdfUrl": "/pdfs/mat/geometria_plana.pdf"
+  },
+
+  {
+    "id": 8,
+    "slug": "graficos-de-inequacoes",
+    "titulo": "Graficos de Inequações",
+    "pdfUrl": "/pdfs/mat/graficos_de_inequacoes.pdf"
+  },
+
+  {
+    "id": 9,
+    "slug": "inequacoes",
+    "titulo": "Inequações",
+    "pdfUrl": "/pdfs/mat/inequacoes.pdf"
   }
+
 ]
