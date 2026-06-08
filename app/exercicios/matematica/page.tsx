@@ -12,7 +12,10 @@ const temasMatematica = [
     { nome: 'Gráficos de Inequações', slug: 'inequacao-grafico' },
     { nome: 'Inequações', slug: 'inequacao' },
     { nome: 'Geometria Espacial', slug: 'geometria-espacial' },
-    { nome: 'Trigonometria', slug: 'trigonometria' }
+    { nome: 'Trigonometria', slug: 'trigonometria' },
+    { nome: 'Matrizes', slug: 'matrizes' },
+    { nome: 'Polinomios', slug: 'polinomios' },
+    { nome: 'Logaritmos', slug: 'logaritmos' }
 ];
 
 export default function MatematicaPage() {

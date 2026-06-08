@@ -72,6 +72,27 @@
     "slug": "trigonometria",
     "titulo": "Trigonometria",
     "pdfUrl": "/pdfs/mat/trigonometria.pdf"
+  },
+
+  {
+    "id": 12,
+    "slug": "matrizes",
+    "titulo": "Matrizes",
+    "pdfUrl": "/pdfs/mat/matrizes.pdf"
+  },
+
+  {
+    "id": 13,
+    "slug": "polinomios",
+    "titulo": "Polinomios",
+    "pdfUrl": "/pdfs/mat/polinomios.pdf"
+  },
+
+  {
+    "id": 14,
+    "slug": "logaritmos",
+    "titulo": "Logaritmos",
+    "pdfUrl": "/pdfs/mat/logaritmos.pdf"
   }
 
 ]
