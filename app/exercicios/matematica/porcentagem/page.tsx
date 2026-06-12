@@ -4,7 +4,7 @@ const questoes = [
   {
     id: 1,
     vestibular: "UNESP 2026",
-    imagemUrl: "/questoes/matematica/porcentagem/ex1_porcentagem.png",
+    imagemUrl: "/questoes/matematica/exs_porcentagem/ex1_porcentagem.png",
     alternativas: ['A', 'B', 'C', 'D', 'E'],
     correta: 'A',
     explicacao:
@@ -14,7 +14,7 @@ const questoes = [
   {
     id: 2,
     vestibular: "UNESP 2020",
-    imagemUrl: "/questoes/matematica/porcentagem/ex2_porcentagem.png",
+    imagemUrl: "/questoes/matematica/exs_porcentagem/ex2_porcentagem.png",
     alternativas: ['A', 'B', 'C', 'D', 'E'],
     correta: 'C',
     explicacao:
@@ -24,7 +24,7 @@ const questoes = [
   {
     id: 3,
     vestibular: "UNESP 2020",
-    imagemUrl: "/questoes/matematica/porcentagem/ex3_porcentagem.png",
+    imagemUrl: "/questoes/matematica/exs_porcentagem/ex3_porcentagem.png",
     alternativas: ['A', 'B', 'C', 'D', 'E'],
     correta: 'A',
     explicacao:
