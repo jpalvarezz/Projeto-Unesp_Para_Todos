@@ -17,26 +17,22 @@ export default function Feedback() {
           </p>
         </div>
 
-        {/* Início do Formulário */}
-        {/* Início do Formulário */}
         <form 
           action="https://api.web3forms.com/submit" 
           method="POST" 
           className="flex flex-col gap-5"
         >
           
-          {/* 1. CHAVE DE ACESSO*/}
           <input 
             type="hidden" 
             name="access_key" 
             value="40f4db55-6c56-468a-a63d-36c21a9e2e2f" 
           />
 
-          {/* 2. Para onde o usuário vai depois de enviar?*/}
           <input 
             type="hidden" 
             name="redirect" 
-            value="http://localhost:3000/" 
+            value="https://projeto-unesp-para-todos.vercel.app/" 
           />
 
           {/* Caixa do Nome */}
