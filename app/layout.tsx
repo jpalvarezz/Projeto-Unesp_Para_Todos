@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar"; 
+import Navbar from "../components/Navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +38,7 @@ export default function RootLayout({
         <main className="relative z-10 flex-grow w-full max-w-7xl mx-auto min-h-screen px-4 py-8">
           {children}
         </main>
-        
+        <Analytics />
       </body>
     </html>
   );
